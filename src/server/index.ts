@@ -9,13 +9,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('dist'));
 
 app.post('/api/user', (req: express.Request, res: express.Response) => {
-  const product = new User(
+  const user = new User(
     {
       username: req.body.username,
     }
   );
 
-  product.save(err => {
+  user.save(err => {
     if (err) {
       console.log(err);
     }
