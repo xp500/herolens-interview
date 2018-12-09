@@ -32,6 +32,7 @@ app.get('/api/user/:username', (req: express.Request, res: express.Response) => 
 });
 
 
+// https://mlab.com/databases/herolens-interview/
 const dev_db_url = 'mongodb://herolens:q1w2e3r4@ds227674.mlab.com:27674/herolens-interview';
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 const db = mongoose.connection;
