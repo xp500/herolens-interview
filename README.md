@@ -23,4 +23,4 @@ El objetivo de este ejercicio es implementar una plataforma de publicación de e
 - Limitar longitud máxima de los mensajes
 
 Las funcionalidades a implementar quedan a su criterio.
-
+Deben haber al menos dos tipos de vistas (por ej, un formulario y un listado de elementos) estructuradas.
