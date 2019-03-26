@@ -32,6 +32,9 @@ export default class App extends React.Component<{}, { username: string }> {
           <Link to="/2">
             <button>Route2</button>
           </Link>
+          <Link to="/Login">
+            <button>Login</button>
+          </Link>
         </div>
       </>
     );

@@ -2,6 +2,9 @@ import * as React from 'react';
 import './app.css';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Home from './Home';
+import Login from './components/Login';
+import UserInterface from './components/UserInterface';
+
 
 
 const Route1 = () => <>
@@ -33,6 +36,8 @@ export default class App extends React.Component<{}, { username: string }> {
           <Route exact={true} path="/" component={Home} />
           <Route exact={true} path="/1" component={Route1} />
           <Route exact={true} path="/2" component={Route2} />
+          <Route exact={true} path="/Login" component={Login} />
+          <Route exact={true} path="/UserInterface" component={UserInterface} />
         </div>
       </Router>
     );
